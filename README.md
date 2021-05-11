@@ -5,7 +5,7 @@ Search mac info offline in about 29915 tech companies
 
 First of all, import the package.
 
-(**Note**: you need to import the class "Company" or it will not work, you can simply use "**import ***")
+(**Note**: you need to import the class "Company" or it will not work, you can simply use " **import *")
 
 ```
 from macinfo import *
