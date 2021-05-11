@@ -48,3 +48,28 @@ if "E0:E0:C2" in [company.mac_hex_formatted for company in search_company_by_cou
 else:
     print("E0:E0:C2 not exists in China")
 ```
+On Windows system we can parse the output of the command "getmac" and use **search_company_by_mac()** to get information about the hardware's manufacturer as follow
+```
+from macinfo import *
+from subprocess import check_output
+from typing import List
+
+
+def get_mac_addresses() -> List[str]:
+    output = check_output("getmac")
+    mac_addresses = []
+
+    for line in output.splitlines():
+        if b" " in line:
+            splitted_line = line.split()
+            if b"-" in splitted_line[0]:
+                mac_addresses.append(splitted_line[0].decode())
+
+    return mac_addresses
+
+
+if __name__ == "__main__":
+    for mac_address in get_mac_addresses():
+        company = search_company_by_mac(mac_address=mac_address)[0]
+        print(company.info)
+```
