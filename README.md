@@ -1,4 +1,4 @@
-# macinfo version 0.0.3a
+# macinfo version 0.0.4a
 Search mac info offline in about 29915 tech companies
 
 # Usage
