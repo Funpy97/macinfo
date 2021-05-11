@@ -1,12 +1,12 @@
 Metadata-Version: 1.1
 Name: macinfo
-Version: 0.0.2a
+Version: 0.0.3a
 Summary: Search mac address info offline in about 29915 tech companies
 Home-page: https://github.com/Funpy97/macinfo
 Author: Marino Iannarelli
 Author-email: marinoiannarelli97@gmail.com
 License: MIT
-Download-URL: https://github.com/Funpy97/macinfo/archive/v0.0.2-alpha-macinfo.tar.gz
+Download-URL: https://github.com/Funpy97/macinfo/archive/v0.0.3-alpha-macinfo.tar.gz
 Description: More information on: https://github.com/Funpy97/macinfo
 Keywords: mac address,companies,whois,company
 Platform: UNKNOWN
