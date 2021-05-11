@@ -70,6 +70,10 @@ def get_mac_addresses() -> List[str]:
 
 if __name__ == "__main__":
     for mac_address in get_mac_addresses():
-        company = search_company_by_mac(mac_address=mac_address)[0]
-        print(company.info)
+        try:
+            company = search_company_by_mac(mac_address=mac_address)[0]
+            print(company.info)
+
+        except IndexError:
+            print("Unknow MAC ADDRESS")
 ```
