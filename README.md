@@ -1,7 +1,7 @@
 # macinfo version 0.0.1a
 Search mac info offline in about 29915 tech companies
 
-# Some example
+# Usage
 
 First of all, import the package.
 
