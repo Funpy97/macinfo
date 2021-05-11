@@ -2,8 +2,8 @@ import pickle
 from typing import List
 
 path_1 = "/".join(str(__file__).split("\\")[0:-1])
-path_2 = "/data/companies.pickle"
-full_path = path_1 + path_2 if path_1 else "data/companies.pickle"
+path_2 = "/data/companies.py"
+full_path = path_1 + path_2 if path_1 else "data/companies.py"
 
 
 class Company:
