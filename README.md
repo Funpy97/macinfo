@@ -3,7 +3,13 @@ Search mac info offline in about 29915 tech companies
 
 # Usage
 
-First of all, import the package.
+First of all, install the package, you can use pip to install macinfo.
+
+```
+pip install macinfo
+```
+
+Import the package.
 
 (**Note**: you need to import the class "Company" or it will not work, you can simply use **"import *"**)
 
